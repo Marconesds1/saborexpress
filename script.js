@@ -74,7 +74,7 @@ function finishOrder() {
     });
     orderMessage += `\nTotal: R$ ${cartTotal.toFixed(2)}`;
 
-    const whatsappNumber = '5531999999999'; // Número de WhatsApp para onde enviar o pedido
+    const whatsappNumber = '5598996126168'; // Número de WhatsApp para onde enviar o pedido
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(orderMessage)}`;
     window.open(whatsappURL, '_blank');
 }
